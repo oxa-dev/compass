@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 872d9342-8932-4bb2-a1e0-91b3861cef85
+  title: Open Exchange Architecture
+  banner: ./banner.png
+  abbreviations:
+    OXA: Open Exchange Architecture
+    AST: Abstract Syntax Tree
+    JATS: Journal Article Tag Suite
+    CC: Creative Commons
+    JSON: JavaScript Object Notation
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
