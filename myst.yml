@@ -19,6 +19,7 @@ project:
         - file: compass.md
         - file: contributing.md
         - file: practices.md
+        - file: rfc.md
     - title: Meetings
       children:
         - file: meetings.md
