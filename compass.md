@@ -20,7 +20,9 @@ This compass serves as a guide for:
 
 The OXA Steering Council is responsible for strategic direction, governance decisions, and ensuring the long-term health of the OXA project.
 
-### Current Members
+(steering-council-members)=
+
+### Steering Council - Current Members
 
 - **Nokome Bentley** ([\@nokome](https://github.com/nokome)) — Steering Council Member
 - **Rowan Cockett** ([\@rowanc1](https://github.com/rowanc1)) — Steering Council Member
