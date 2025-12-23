@@ -32,6 +32,8 @@ site:
   nav:
     - title: Documentation
       url: /articles/documentation
+    - title: Blog
+      url: /blog
     - title: RFCs
       url: /rfc
     - title: Compass
