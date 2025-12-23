@@ -1,9 +1,9 @@
 name: curvenote push
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
 jobs:
-  journal-draft:
+  compass:
     uses: curvenote/actions/.github/workflows/push.yml@v1
     with:
       landing-content: oxa
