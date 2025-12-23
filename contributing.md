@@ -46,7 +46,7 @@ The OXA project is organized across multiple repositories:
 : Information about the request-for-comment process and accepted RFCs
 
 <https://github.com/oxa-dev/oxa>
-: Contains the schemas, types (python, rust, typescript) and command-line tools for validation
+: Contains the schemas, types (Python, Rust, Typescript) and command-line tools for validation
 
 <https://github.com/oxa-dev/workers>
 : Cloudflare workers for the website, for public access to the published schemas

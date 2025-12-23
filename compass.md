@@ -31,7 +31,7 @@ The OXA Steering Council is responsible for strategic direction, governance deci
 
 ### Decision-Making
 
-Changes and improvements to OXA are completed through a community [Request For Comment](./rfc.md) process. The Steering Council makes decisions through consensus. When consensus cannot be reached, decisions are made by majority vote of the Steering Council.
+Changes and improvements to OXA are completed through a community [Request For Comment](./rfc.md) process. The Steering Council tries to make all decisions through consensus. When consensus cannot be reached, decisions are made by majority vote of the Steering Council.
 
 ### Membership
 
