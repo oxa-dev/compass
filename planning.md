@@ -1,5 +1,5 @@
 ---
-title: Planning Document
+title: Roadmap & Planning
 ---
 
 This document outlines the strategic direction, milestones, and organizational structure for the OXA (Open Exchange Architecture) project.
@@ -78,4 +78,4 @@ This planning document is a living document and should be reviewed and updated:
 ---
 
 _Last updated: 2026-01-01_
-_Next review: 2025-03-01_
+_Next review: 2026-03-01_
