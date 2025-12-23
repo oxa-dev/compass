@@ -8,3 +8,16 @@ Team compass and planning documentation for the Open Exchange Architecture (OXA)
 
 - **[Specification & Docs](https://oxa.dev)** — Main OXA specification and documentation
 - **[Discord](https://discord.oxa.dev)** — Community discussion and updates
+
+## Building the Documentation
+
+To build the documentation locally:
+
+1. Install `npm install -g mystmd`
+2. Use [`myst`](https://mystmd.org/) to build the site:
+
+   ```
+   myst start
+   ```
+
+Commits pushed to the `main` branch are automatically deployed to [oxa.dev](https://oxa.dev).
