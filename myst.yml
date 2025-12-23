@@ -14,11 +14,14 @@ project:
     RFC: Request For Comment
   toc:
     - file: index.md
+    - file: blog.md
     - title: Governance
       children:
         - file: compass.md
         - file: contributing.md
         - file: practices.md
+    - title: Request For Comments
+      children:
         - file: rfc.md
     - title: Meetings
       children:
