@@ -26,6 +26,13 @@ project:
         - file: meetings/README.md
 site:
   template: book-theme
+  nav:
+    - title: Documentation
+      url: /articles/documentation
+    - title: RFCs
+      url: /rfc
+    - title: Compass
+      url: /compass
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
