@@ -4,12 +4,26 @@ project:
   id: 872d9342-8932-4bb2-a1e0-91b3861cef85
   title: Open Exchange Architecture
   banner: ./banner.png
+  github: https://github.com/oxa-dev/compass
   abbreviations:
     OXA: Open Exchange Architecture
     AST: Abstract Syntax Tree
     JATS: Journal Article Tag Suite
     CC: Creative Commons
     JSON: JavaScript Object Notation
+    RFC: Request For Comment
+  toc:
+    - file: index.md
+    - title: Governance
+      children:
+        - file: compass.md
+        - file: contributing.md
+        - file: practices.md
+        - file: rfc.md
+    - title: Meetings
+      children:
+        - file: meetings.md
+        - file: meetings/README.md
 site:
   template: book-theme
   # options:

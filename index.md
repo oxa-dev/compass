@@ -55,4 +55,6 @@ We welcome contributions from tool builders, publishers, and researchers who wan
 
 > **Join us in building the foundation of a more connected scientific ecosystem.**
 
-- [Slack](https://slack.continuousfoundation.org)
+For discussion, updates, and to connect with the OXA community, join our [Discord server](https://discord.oxa.dev).
+
+Find more ways to contribute and get involved in the [Contributing Guide](./contributing.md).
