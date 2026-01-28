@@ -26,7 +26,7 @@ The OXA Steering Council is responsible for strategic direction, governance deci
 
 - **Nokome Bentley** ([\@nokome](https://github.com/nokome)) — Steering Council Member
 - **Rowan Cockett** ([\@rowanc1](https://github.com/rowanc1)) — Steering Council Member
-- **Coming Soon** — Steering Council Member
+- **Tracy Teal** ([\@tkteal](https://github.com/tracykteal)) — Steering Council Member
 - **Coming Soon** — Steering Council Member
 
 ## Governance
