@@ -23,6 +23,7 @@ project:
     - title: Request For Comments
       children:
         - file: rfc.md
+        - file: rfc-goals.md
         - file: rfc-process.md
     - title: Meetings
       children:
