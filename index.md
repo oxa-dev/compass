@@ -2,59 +2,189 @@
 title: Open Exchange Architecture
 site:
   hide_outline: true
+  hide_toc: true
+  hide_title_block: true
+  hide_footer_links: true
 ---
 
-The **Open Exchange Architecture (OXA)** is a specification for representing scientific documents and their components as structured JSON objects. It’s designed to enable **exchange, interoperability, and long-term preservation** of scientific knowledge, while remaining compatible with modern web and data standards.
++++ { "kind": "split-image" }
 
-> **A foundation for interoperable, structured scientific content.**
-> OXA defines open, extensible JSON schemas that describe modular and composable scientific documents — bridging the gap between authoring systems like **Stencila**, **MyST**, **Quarto** and the scientific publishing ecosystem which uses tools like **JATS**.
+Open Exchange Architecture
 
-## Overview
+## Interoperable, structured scientific content.
 
-OXA provides schemas and examples for representing:
+OXA defines open, extensible JSON schemas that describe modular and composable scientific documents — bridging the gap between authoring systems and the scientific publishing ecosystem.
 
-- Executable and interactive research components
-- Text, math, figures, code, and metadata
-- Authors, affiliations, funding, and licenses
-- Parts like abstracts, data-availability, and acknowledgements
-- Hierarchical structures like sections and paragraphs
-- Inline formatting (strong, emphasis, quote, etc.)
+![](./banner.png)
 
-The format is inspired by [JATS](https://jats.nlm.nih.gov), **[unified.js](https://unifiedjs.com)**, and **Pandoc AST**, following a **typed node model** with `children` arrays that form a tree.
+{button}`Get Started <./contributing>`
+{button}`Read the Spec </articles/documentation>`
+
++++ { "kind": "centered" }
+
+Core Capabilities
+
+## Structured for Science
+
+OXA enables documents to be more than just text. It supports live code, dynamic data bindings, and interactive cells directly in the schema.
+
+:::::{grid} 1 2 2 2
+
+::::{card}
+**Text, math, figures, code**
+
+Rich formatting across all scientific mediums, ensuring mathematical rigor and visual clarity across platforms.
+::::
+
+::::{card}
+**Computational Articles**
+
+OXA enables documents to be more than just text. It supports live code, dynamic data bindings, and interactive cells directly in the schema.
+::::
+
+::::{card}
+**Authors, Institutions, & Funding**
+
+First-class support for attribution, institutional affiliations, and funding sources metadata.
+::::
+
+::::{card}
+**Hierarchical structures**
+
+A recursive JSON model that maps the complexity of journals, articles, sections, and fragments.
+::::
+
+:::::
+
++++ { "kind": "centered" }
+
+Try it out
+
+## Interactive Demo
+
+Explore the OXA schema in action — edit, transform, and visualize structured scientific content.
++++ {"class": "col-page"}
+
+:::{anywidget} https://cdn.jsdelivr.net/npm/@oxa/demo/dist/anywidget.js
+:::
+
++++ { "kind": "centered" }
+
+The Lattice
 
 ## Design Principles
 
-- **Open by design:** JSON Schema–based and CC0-licensed for reuse and extension.
-- **Composable:** Each node is self-contained, typed, and can be nested or reused.
-- **Interoperable:** Compatible with MyST Markdown, Stencila, Quarto, and similar formats.
-- **Extensible:** Add new node types while preserving schema validation.
-- **Typed & linked:** Everything has a clear `type`, optional `id`, and structured `data` field.
-- **Modular**: Documents and components can link across projects, enabling rich cross-references, citations, and reuse of figures, data, or methods from distributed sources.
-- **Computational**: Build in the schemas for computational scientific content (e.g. Notebooks)
+:::::{grid} 1 2 3 3
+
+::::{card}
+**Open by design**
+
+Built on community standards and open source values to ensure no single entity controls the scientific narrative.
+::::
+
+::::{card}
+**Composable**
+
+Treat every document part as a reusable component that can be remixed across different environments.
+::::
+
+::::{card}
+**Interoperable**
+
+Bridge the gap between formats — Markdown, LaTeX, JATS, At-Proto, and more — through a unified exchange format.
+::::
+
+::::{card}
+**Extensible**
+
+Adapt the architecture to your needs with custom node types while maintaining backward compatibility.
+::::
+
+::::{card}
+**Typed & linked**
+
+Every node is strongly typed and uniquely addressable, enabling graph-based scientific exploration.
+::::
+
+::::{card}
+**Modular**
+
+Independent packages for validation, rendering, and transformation allow for lightweight implementations.
+::::
+
+:::::
+
++++ { "kind": "logo-cloud" }
+
+Trusted and Built By
 
 ## Supporters
 
-OXA stands on the shoulders of open projects that make interoperability in science possible. These organizations are supporting the efforts of OXA financially and with in-kind contributions:
+::::{grid} 2 3
 
-- [Continuous Science Foundation](https://csf.now) — advancing a movement toward continuous, connected, and transparent research communication.
-- [openRxiv](https://openrxiv.org) — building open infrastructures for federated preprints and modular scientific publishing.
-- [Stencila](https://stenci.la) — open tools for executable documents, bridging computation and publishing.
-- [Curvenote](https://curvenote.com) — scientific content management and publishing infrastructure built on MyST and open standards.
-- [Posit (Quarto)](https://quarto.org) — an open-source publishing system for scientific and technical communication, supporting reproducible research and interoperability.
-- [Creative Commons](https://creativecommons.org) — defining open licenses and rights frameworks that make scientific reuse possible.
-- [The Navigation Fund](https://www.navigation.org) - supported the [standards meeting](https://articles.continuousfoundation.org/articles/scientific-standards-meeting) where OXA was created.
+:::{image} ./images/logos/continuous-science-foundation.svg
+:height: 100px
+:alt: Continuous Science Foundation
+:::
 
-## Get Involved 🚀
+:::{image} ./images/logos/openrxiv.svg
+:height: 100px
+:alt: openRxiv
+:::
 
-OXA is an **open community specification**, stewarded by [Continuous Science Foundation](https://continuousfoundation.org/), a grassroots, community-driven organization that brings together researchers, tool builders, publishers, and standards groups to support modular, continuous ways of publishing research.
-We welcome contributions from tool builders, publishers, and researchers who want to advance interoperable, open science.
+:::{image} ./images/logos/stencila.png
+:height: 100px
+:alt: Stencila
+:::
 
-- Extend the schema for your tools
-- Discuss interoperability on issues
-- Submit examples and validators
+:::{image} ./images/logos/curvenote.png
+:height: 100px
+:alt: Curvenote
+:::
 
-> **Join us in building the foundation of a more connected scientific ecosystem.**
+:::{image} ./images/logos/quarto.png
+:height: 100px
+:alt: Posit (Quarto)
+:::
 
-For discussion, updates, and to connect with the OXA community, join our [Discord server](https://discord.oxa.dev).
+:::{image} ./images/logos/creative-commons.png
+:height: 100px
+:alt: Creative Commons
+:::
 
-Find more ways to contribute and get involved in the [Contributing Guide](./contributing.md).
+:::{image} ./images/logos/elife.png
+:height: 100px
+:alt: eLife
+:::
+
+:::{image} ./images/logos/myst.png
+:height: 100px
+:alt: MyST Markdown
+:::
+
+::::
+
++++ { "kind": "centered" }
+
+## Shape the future of science.
+
+OXA is an open community specification stewarded by the Continuous Science Foundation.
+Join our Discord to contribute, ask questions, or start building on the architecture today.
+
+{button}`Join Discord <https://discord.oxa.dev>`
+{button}`Contribute on GitHub <https://github.com/oxa-dev>`
+
++++ { "kind": "centered" }
+
+Recent Articles
+
+```{cn:articles}
+:venue: oxa
+:collection: blog
+:show-thumbnails: true
+:show-date: true
+:show-kind: false
+:show-authors: true
+:show-doi: true
+:limit: 3
+```
