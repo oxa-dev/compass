@@ -67,8 +67,6 @@ Explore the OXA schema in action — edit, transform, and visualize structured s
 
 +++ { "kind": "centered" }
 
-The Lattice
-
 ## Design Principles
 
 :::::{grid} 1 2 3 3
