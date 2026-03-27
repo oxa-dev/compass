@@ -7,18 +7,15 @@ site:
   hide_footer_links: true
 ---
 
-+++ { "kind": "split-image" }
-
-Open Exchange Architecture
-
-## Interoperable, structured scientific content.
-
-OXA defines open, extensible JSON schemas that describe modular and composable scientific documents — bridging the gap between authoring systems and the scientific publishing ecosystem.
-
-![](./banner.png)
-
-{button}`Get Started <./contributing>`
-{button}`Read the Spec </articles/documentation>`
+:::{hero .col-screen} OXA Documentation
+:background-image: banner.png
+:max-width: 100
+:overlay: 60
+:kicker: Open Exchange Architecture
+:actions: [Get Started](./contributing) [Schema](/articles/documentation)
+:footer: OXA defines open, extensible JSON schemas that describe modular and composable scientific documents — bridging the gap between authoring systems and the scientific publishing ecosystem.
+A foundation for interoperable, structured scientific content.
+:::
 
 +++ { "kind": "centered" }
 
